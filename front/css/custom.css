@@ -1,69 +1,6 @@
-html,body{
-  height: 100%;
-}
-/*Header Section*/
-.header{
-    /*background: url(../images/b1.jpg) no-repeat center center scroll;*/
-    color: white;
-    height: 100%;
-}
-@media (min-width: 767px) {
-  .header{
-    background-size: 100% 100%;
-  }
-}
-@media (max-width: 767px) {
-  .header{
-    background-size: auto 100%;
-  }
-}
-.btn-large{
-  font-size: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.btn-larger{
-  font-size: 23px;
-  font-weight: bold;
-  padding-left: 35px;
-  padding-right: 35px;
-}
-/* End of header */
-
-/* About */
-.divider{
-  padding: 30px 0px;
-}
-
-.about{
-  background: url(../images/campus.jpg) no-repeat center center scroll;
-  color: white;
-  padding: 0px 0px;
-}
-@media (min-width: 767px) {
-  .about{
-    background-size: 100% 100%;
-  }
-}
-@media (max-width: 767px) {
-  .about{
-    background-size: auto 100%;
-  }
-}
-.about .bg-overlay{
-  padding: 50px 0px;
-  margin: 0;
-  background-color: rgba(10,10,10,0.8);
-}
-
-/* !-About*/
-
-
 /*Navbar Unreactive*/
 .navbar-custom{
   position: fixed;
-  z-index: 9999 !important; 
   width: 100%;
 }
 .navbar-custom-float-top{
@@ -74,7 +11,6 @@ html,body{
 }
 .navbar-custom-centered{
   position: relative;
-  
   text-align:center;
   overflow: hidden;
   color: white; /*text color*/
@@ -86,7 +22,6 @@ html,body{
 }
 .navbar-custom-centered ul{
   margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 .navbar-custom-centered li{
@@ -108,15 +43,8 @@ html,body{
   font-size: 18px;
   font-weight: 500;
 }
-@media (min-width: 767px){
-  .navbar-custom-centered .nav-header-custom li a{
-    padding: 14px 6%;
-  }
-}
-@media (max-width: 767px){
-  .navbar-custom-centered .nav-header-custom li a{
-    padding: 14px 2px;
-  }
+.navbar-custom-centered .nav-header-custom li a{
+  padding: 14px 6%;
 }
 .navbar-custom-centered .nav-header-custom .navbar-custom-brand{
   font-size: 20px;
